@@ -1,0 +1,48 @@
+{
+  "name": "sanddance-wi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --open",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wigithub1201/sanddance-wi.git"
+  },
+  "author": "w",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wigithub1201/sanddance-wi/issues"
+  },
+  "homepage": "https://github.com/Wigithub1201/sanddance-wi#readme",
+  "devDependencies": {
+    "babel-loader": "^8.2.5",
+    "html-webpack-plugin": "^5.5.0",
+    "react": "^18.1.0",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/plugin-syntax-jsx": "^7.16.7",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-react": "^7.16.7",
+    "@deck.gl/core": "^8.7.9",
+    "@deck.gl/layers": "^8.7.9",
+    "@fluentui/react": "^8.67.4",
+    "@luma.gl/core": "^8.5.11",
+    "@msrvida/sanddance-explorer": "^3.2.0",
+    "css-loader": "^6.7.1",
+    "react-csv-reader": "^3.5.0",
+    "react-dom": "^18.1.0",
+    "react-hot-loader": "^4.13.0",
+    "style-loader": "^3.3.1",
+    "vega": "^5.22.1",
+    "xlsx": "^0.18.5"
+  },
+  "keywords": []
+}
